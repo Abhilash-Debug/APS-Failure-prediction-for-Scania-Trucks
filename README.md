@@ -30,6 +30,7 @@ Predicted class | True class |	|
  | Positive |  |  Cost_1
  | Negative | Cost_1 |  
 
-Cost_1 = 10 and Cost_2= 500
+Cost_1 = 10 and Cost_2= 500.
+
 The total cost of a prediction model the sum of "Cost_1” multiplied by the number of Instances with type 1 failure  and "Cost_2" with the number of instances with type 2 failure,  resulting in a "Total_cost". In this case Cost_1 refers to the cost that an unnecessary check needs to be done by an mechanic at an workshop, while Cost_2 refer to the cost of missing a faulty truck,  which may cause a breakdown.
 **Total_cost = Cost_1*No_Instances + Cost_2*No_Instances.**
